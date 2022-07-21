@@ -1,0 +1,66 @@
+:root {
+    --bg-dark-mode : hsl(230, 17%, 14%);
+    --top-bg-dark-design: hsl(232, 19%, 15%);
+    --bg-light-mode :  hsl(0, 0%, 100%);
+    --top-bg-light-design: hsl(225, 100%, 98%);
+  --Lime-Green: hsl(163, 72%, 41%);
+  --Bright-Red: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+--Twitter: hsl(203, 89%, 53%);
+--Instagram-first-color: linear-gradient hsl(37, 97%, 70%);
+ --instagram-second-icon: hsl(329, 70%, 58%);
+ --YouTube: hsl(348, 97%, 39%);
+ --dark-Toggle: linear-gradient hsl(210, 78%, 56%);
+ --dark: hsl(146, 68%, 55%);
+ --Overview-Card-Headings: 14px;
+ --font-family:'Inter', sans-serif;
+
+ --font-lg-weight: 700;
+ --font-small-weight: 400;
+ --toggle-light-icon-color: hsl(230, 22%, 74%);
+ --toggle-dark-first-color:  hsl(210, 78%, 56%);
+ --toggle-dark-second-color:  hsl(146, 68%, 55%);
+ --text-desaturated-blue: hsl(228, 34%, 66%);
+
+}
+
+body{
+    background-color: var(--bg-dark-mode);
+    color: hsl(0, 0%, 100%);
+}
+
+main{
+    background-color: var(--top-bg-dark-design);
+}
+
+
+
+
+.icon i{
+    background: linear-gradient(45deg,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.second-div .box-1,
+.second-div .box-2,
+.second-div .box-3,
+.second-div .box-4,
+.box-6
+{
+    background-color:   hsl(228, 28%, 20%);
+}
+
+.second-div .box-1:hover,
+.second-div .box-2:hover,
+.second-div .box-3:hover,
+.second-div .box-4:hover,
+.box-6:hover{
+    background-color: hsl(228, 19%, 45%);
+}
+
+.box-6 .bottom-box h4,
+.overview h1{
+    color: white !important;
+}
